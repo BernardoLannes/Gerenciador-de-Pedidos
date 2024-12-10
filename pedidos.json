@@ -1,0 +1,35 @@
+[
+  {
+    "numero": 1,
+    "preco": 500.0,
+    "cliente": {
+      "nome": "Fulano",
+      "telefone": "9999",
+      "endereco": {
+        "rua": "A",
+        "bairro": "nao informado",
+        "uf": "nao informado",
+        "numero": 0,
+        "cep": 0
+      }
+    },
+    "data_pedido": "2024-12-10"
+  },
+  {
+    "numero": 2,
+    "preco": 600.0,
+    "cliente": {
+      "nome": "Sicrano",
+      "telefone": "8888",
+      "endereco": {
+        "rua": "B",
+        "bairro": "nao informado",
+        "uf": "nao informado",
+        "numero": 0,
+        "cep": 0
+      }
+    },
+    "data_pedido": "2024-12-10",
+    "data_entrega": "2024-12-10"
+  }
+]
