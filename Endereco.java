@@ -12,4 +12,15 @@ public class Endereco {
         this.numero = numero;
         this.cep = cep;
     }
+
+    @Override
+    public String toString() {
+        return "Endereco {" +
+                "\n\t\t\trua=" + rua +
+                ",\n\t\t\tbairro= " + bairro +
+                ",\n\t\t\tuf= " + uf +
+                ",\n\t\t\tnumero= " + numero +
+                ",\n\t\t\tcep= " + cep +
+                "\n\t\t}";
+    }
 }
