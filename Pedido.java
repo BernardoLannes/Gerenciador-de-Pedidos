@@ -19,14 +19,22 @@ public class Pedido {
         this.data_entrega = data_entrega;
     }
 
+    public boolean entregueNoPrazo() {
+        if (this.data_entrega.equals(this.data_pedido.toString())) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     @Override
     public String toString() {
         return "Pedido {" +
                 "\n\tnumero=" + numero +
                 ",\n\tpreco= " + preco +
                 ",\n\tcliente= " + cliente.toString() +
-                ",\n\tdataPedido= " + data_pedido +
-                ",\n\tdataEntrega= " + data_entrega +
+                ",\n\tdata_pedido= " + data_pedido.toString() +
+                ",\n\tdata_entrega= " + data_entrega +
                 "\n}";
     }
 }
