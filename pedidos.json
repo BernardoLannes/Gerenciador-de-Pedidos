@@ -23,13 +23,110 @@
       "telefone": "8888",
       "endereco": {
         "rua": "B",
-        "bairro": "nao informado",
-        "uf": "nao informado",
+        "bairro": "N/A",
+        "uf": "N/A",
         "numero": 0,
         "cep": 0
       }
     },
     "data_pedido": "2024-12-10",
     "data_entrega": "2024-12-10"
+  },
+  {
+    "numero": 3,
+    "preco": 100.0,
+    "cliente": {
+      "nome": "BERNARDO",
+      "telefone": "2345",
+      "endereco": {
+        "rua": "GUAP",
+        "bairro": "N/A",
+        "uf": "N/A",
+        "numero": 0,
+        "cep": 0
+      }
+    },
+    "data_pedido": "2024-12-10"
+  },
+  {
+    "numero": 4,
+    "preco": 300.0,
+    "cliente": {
+      "nome": "teste",
+      "telefone": "23423423",
+      "endereco": {
+        "rua": "guapore",
+        "bairro": "N/A",
+        "uf": "N/A",
+        "numero": 0,
+        "cep": 0
+      }
+    },
+    "data_pedido": "2024-12-10"
+  },
+  {
+    "numero": 5,
+    "preco": 300.0,
+    "cliente": {
+      "nome": "Elane",
+      "telefone": "2341324",
+      "endereco": {
+        "rua": "perto",
+        "bairro": "N/A",
+        "uf": "N/A",
+        "numero": 0,
+        "cep": 0
+      }
+    },
+    "data_pedido": "2024-12-10"
+  },
+  {
+    "numero": 6,
+    "preco": 200.0,
+    "cliente": {
+      "nome": "BERNARDO",
+      "telefone": "123123",
+      "endereco": {
+        "rua": "DFG",
+        "bairro": "N/A",
+        "uf": "N/A",
+        "numero": 0,
+        "cep": 0
+      }
+    },
+    "data_pedido": "2024-12-10"
+  },
+  {
+    "numero": 7,
+    "preco": 120.0,
+    "cliente": {
+      "nome": "bernardo",
+      "telefone": "123124",
+      "endereco": {
+        "rua": "guapore",
+        "bairro": "bnrm",
+        "uf": "rj",
+        "numero": 207,
+        "cep": 28893108
+      }
+    },
+    "data_pedido": "2024-12-10",
+    "data_entrega": "2024-12-10"
+  },
+  {
+    "numero": 8,
+    "preco": 100.0,
+    "cliente": {
+      "nome": "Elane",
+      "telefone": "1234123",
+      "endereco": {
+        "rua": "qualquer",
+        "bairro": "ali do lado",
+        "uf": "RJ",
+        "numero": 32,
+        "cep": 282313112
+      }
+    },
+    "data_pedido": "2024-12-10"
   }
 ]

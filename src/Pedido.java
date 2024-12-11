@@ -25,6 +25,46 @@ public class Pedido {
         return data_entrega != null && data_entrega.equals(data_pedido);
     }
 
+    public int getNumero() {
+        return this.numero;
+    }
+
+    public Cliente getCliente() {
+        return this.cliente;
+    }
+
+    public double getPreco() {
+        return this.preco;
+    }
+
+    public LocalDate getDataEntrega() {
+        return this.data_entrega;
+    }
+
+    public LocalDate getDataPedido() {
+        return this.data_pedido;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public void setDataEntrega(LocalDate data_entrega) {
+        this.data_entrega = data_entrega;
+    }
+
+    public void setDataPedido(LocalDate data_pedido) {
+        this.data_pedido = data_pedido;
+    }
+
     @Override
     public String toString() {
         return "Pedido {" +

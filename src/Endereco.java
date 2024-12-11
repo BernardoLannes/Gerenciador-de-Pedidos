@@ -15,6 +15,38 @@ public class Endereco {
         this.cep = cep;
     }
 
+    public String getRua() {
+        return this.rua;
+    }
+
+    public String getBairro() {
+        return this.bairro;
+    }
+
+    public String getUf() {
+        return this.uf;
+    }
+
+    public int getNumero() {
+        return this.numero;
+    }
+
+    public int getCep() {
+        return this.cep;
+    }
+
+    public void setRua(String rua) {
+        this.rua = rua;
+    }
+
+    public void setBairro(String bairro) {
+        this.bairro = bairro;
+    }
+
+    public void setUf(String uf) {
+        this.uf = uf;
+    }
+
     @Override
     public String toString() {
         return "Endereco{" +
