@@ -23,12 +23,17 @@ Este é um aplicativo Java para gerenciar pedidos de clientes, com funcionalidad
     javac -cp "lib/gson-2.11.0.jar" -d bin src/*.java
     ```
 2. Execute o programa
-   ```
-   java -cp "lib/gson-2.11.0.jar:bin" src.PedidoApp
-    ```
+   - Linux:
+       ```
+       java -cp "lib/gson-2.11.0.jar:bin" src.PedidoApp
+        ```
+   - Windows:
+       ```
+       java -cp "lib/gson-2.11.0.jar;bin" src.PedidoApp
+       ```
    
-4. Utilize os botões para adicionar, buscar ou editar pedidos.
-5. Ao finalizar, clique em "Salvar e Sair" para garantir que as alterações sejam salvas.
+5. Utilize os botões para adicionar, buscar ou editar pedidos.
+6. Ao finalizar, clique em "Salvar e Sair" para garantir que as alterações sejam salvas.
 
 ## Dependências
 
