@@ -1,132 +1,407 @@
 [
   {
     "numero": 1,
-    "preco": 500.0,
+    "preco": 750.0,
     "cliente": {
-      "nome": "Fulano",
-      "telefone": "9999",
+      "nome": "Carlos Silva",
+      "telefone": "21987654321",
       "endereco": {
-        "rua": "A",
-        "bairro": "nao informado",
-        "uf": "nao informado",
-        "numero": 0,
-        "cep": 0
+        "rua": "Av. Brasil",
+        "bairro": "Centro",
+        "uf": "RJ",
+        "numero": 123,
+        "cep": 20040002
       }
     },
-    "data_pedido": "2024-12-10"
+    "data_pedido": "2024-12-12"
   },
   {
     "numero": 2,
-    "preco": 600.0,
+    "preco": 1200.0,
     "cliente": {
-      "nome": "Sicrano",
-      "telefone": "8888",
+      "nome": "Ana Oliveira",
+      "telefone": "31999887766",
       "endereco": {
-        "rua": "B",
-        "bairro": "N/A",
-        "uf": "N/A",
-        "numero": 0,
-        "cep": 0
+        "rua": "Rua das Flores",
+        "bairro": "Jardim",
+        "uf": "MG",
+        "numero": 45,
+        "cep": 30140071
       }
     },
-    "data_pedido": "2024-12-10",
-    "data_entrega": "2024-12-10"
+    "data_pedido": "2024-12-12",
+    "data_entrega": "2024-12-15"
   },
   {
     "numero": 3,
-    "preco": 100.0,
+    "preco": 540.0,
     "cliente": {
-      "nome": "BERNARDO",
-      "telefone": "2345",
+      "nome": "João Pedro",
+      "telefone": "21987651234",
       "endereco": {
-        "rua": "GUAP",
-        "bairro": "N/A",
-        "uf": "N/A",
-        "numero": 0,
-        "cep": 0
+        "rua": "Rua Azul",
+        "bairro": "Maracanã",
+        "uf": "RJ",
+        "numero": 22,
+        "cep": 20271230
       }
     },
-    "data_pedido": "2024-12-10"
+    "data_pedido": "2024-12-12"
   },
   {
     "numero": 4,
     "preco": 300.0,
     "cliente": {
-      "nome": "teste",
-      "telefone": "23423423",
+      "nome": "Carlos Silva",
+      "telefone": "21987654321",
       "endereco": {
-        "rua": "guapore",
-        "bairro": "N/A",
-        "uf": "N/A",
-        "numero": 0,
-        "cep": 0
+        "rua": "Av. Brasil",
+        "bairro": "Centro",
+        "uf": "RJ",
+        "numero": 123,
+        "cep": 20040002
       }
     },
-    "data_pedido": "2024-12-10"
+    "data_pedido": "2024-12-12",
+    "data_entrega": "2024-12-13"
   },
   {
     "numero": 5,
-    "preco": 300.0,
+    "preco": 100.0,
     "cliente": {
-      "nome": "Elane",
-      "telefone": "2341324",
+      "nome": "Maria Souza",
+      "telefone": "11987653456",
       "endereco": {
-        "rua": "perto",
-        "bairro": "N/A",
-        "uf": "N/A",
-        "numero": 0,
-        "cep": 0
+        "rua": "Rua Verde",
+        "bairro": "Campo Belo",
+        "uf": "SP",
+        "numero": 90,
+        "cep": 4602001
       }
     },
-    "data_pedido": "2024-12-10"
+    "data_pedido": "2024-12-12"
   },
   {
     "numero": 6,
-    "preco": 200.0,
+    "preco": 850.0,
     "cliente": {
-      "nome": "BERNARDO",
-      "telefone": "123123",
+      "nome": "Paulo Costa",
+      "telefone": "41999887744",
       "endereco": {
-        "rua": "DFG",
-        "bairro": "N/A",
-        "uf": "N/A",
-        "numero": 0,
-        "cep": 0
+        "rua": "Rua Curitiba",
+        "bairro": "Centro",
+        "uf": "PR",
+        "numero": 300,
+        "cep": 80010040
       }
     },
-    "data_pedido": "2024-12-10"
+    "data_pedido": "2024-12-12",
+    "data_entrega": "2024-12-14"
   },
   {
     "numero": 7,
-    "preco": 120.0,
+    "preco": 670.0,
     "cliente": {
-      "nome": "bernardo",
-      "telefone": "123124",
+      "nome": "Ana Oliveira",
+      "telefone": "31999887766",
       "endereco": {
-        "rua": "guapore",
-        "bairro": "bnrm",
-        "uf": "rj",
-        "numero": 207,
-        "cep": 28893108
+        "rua": "Rua das Flores",
+        "bairro": "Jardim",
+        "uf": "MG",
+        "numero": 45,
+        "cep": 30140071
       }
     },
-    "data_pedido": "2024-12-10",
-    "data_entrega": "2024-12-10"
+    "data_pedido": "2024-12-12"
   },
   {
     "numero": 8,
-    "preco": 100.0,
+    "preco": 410.0,
     "cliente": {
-      "nome": "Elane",
-      "telefone": "1234123",
+      "nome": "Fernanda Lima",
+      "telefone": "21987655432",
       "endereco": {
-        "rua": "qualquer",
-        "bairro": "ali do lado",
+        "rua": "Rua Amarela",
+        "bairro": "Leblon",
         "uf": "RJ",
-        "numero": 32,
-        "cep": 282313112
+        "numero": 88,
+        "cep": 22441030
       }
     },
-    "data_pedido": "2024-12-10"
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 9,
+    "preco": 300.0,
+    "cliente": {
+      "nome": "Carlos Silva",
+      "telefone": "21987654321",
+      "endereco": {
+        "rua": "Av. Brasil",
+        "bairro": "Centro",
+        "uf": "RJ",
+        "numero": 123,
+        "cep": 20040002
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 10,
+    "preco": 220.0,
+    "cliente": {
+      "nome": "Luciana Borges",
+      "telefone": "51999887733",
+      "endereco": {
+        "rua": "Av. Farrapos",
+        "bairro": "Centro Histórico",
+        "uf": "RS",
+        "numero": 500,
+        "cep": 90010220
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 11,
+    "preco": 450.0,
+    "cliente": {
+      "nome": "Juliana Mendes",
+      "telefone": "21999445566",
+      "endereco": {
+        "rua": "Rua do Sol",
+        "bairro": "Vila Nova",
+        "uf": "RJ",
+        "numero": 101,
+        "cep": 23010140
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 12,
+    "preco": 320.0,
+    "cliente": {
+      "nome": "Rafael Nunes",
+      "telefone": "31988776655",
+      "endereco": {
+        "rua": "Av. Contorno",
+        "bairro": "Savassi",
+        "uf": "MG",
+        "numero": 555,
+        "cep": 30110150
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 13,
+    "preco": 580.0,
+    "cliente": {
+      "nome": "Mariana Lima",
+      "telefone": "21999885544",
+      "endereco": {
+        "rua": "Rua das Palmeiras",
+        "bairro": "Botafogo",
+        "uf": "RJ",
+        "numero": 60,
+        "cep": 22250200
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 14,
+    "preco": 910.0,
+    "cliente": {
+      "nome": "Carlos Silva",
+      "telefone": "21987654321",
+      "endereco": {
+        "rua": "Av. Brasil",
+        "bairro": "Centro",
+        "uf": "RJ",
+        "numero": 123,
+        "cep": 20040002
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 15,
+    "preco": 120.0,
+    "cliente": {
+      "nome": "Beatriz Moraes",
+      "telefone": "61988774433",
+      "endereco": {
+        "rua": "Rua das Laranjeiras",
+        "bairro": "Asa Sul",
+        "uf": "DF",
+        "numero": 302,
+        "cep": 70200000
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 16,
+    "preco": 780.0,
+    "cliente": {
+      "nome": "Daniel Marques",
+      "telefone": "21998765432",
+      "endereco": {
+        "rua": "Rua das Margaridas",
+        "bairro": "Copacabana",
+        "uf": "RJ",
+        "numero": 200,
+        "cep": 22061040
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 17,
+    "preco": 350.0,
+    "cliente": {
+      "nome": "Fernanda Lima",
+      "telefone": "21987655432",
+      "endereco": {
+        "rua": "Rua Amarela",
+        "bairro": "Leblon",
+        "uf": "RJ",
+        "numero": 88,
+        "cep": 22441030
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 18,
+    "preco": 600.0,
+    "cliente": {
+      "nome": "João Pedro",
+      "telefone": "21987651234",
+      "endereco": {
+        "rua": "Rua Azul",
+        "bairro": "Maracanã",
+        "uf": "RJ",
+        "numero": 22,
+        "cep": 20271230
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 19,
+    "preco": 450.0,
+    "cliente": {
+      "nome": "Mariana Lima",
+      "telefone": "21999885544",
+      "endereco": {
+        "rua": "Rua das Palmeiras",
+        "bairro": "Botafogo",
+        "uf": "RJ",
+        "numero": 60,
+        "cep": 22250200
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 20,
+    "preco": 550.0,
+    "cliente": {
+      "nome": "Luciana Borges",
+      "telefone": "51999887733",
+      "endereco": {
+        "rua": "Av. Farrapos",
+        "bairro": "Centro Histórico",
+        "uf": "RS",
+        "numero": 500,
+        "cep": 90010220
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 21,
+    "preco": 720.0,
+    "cliente": {
+      "nome": "Paulo Costa",
+      "telefone": "41999887744",
+      "endereco": {
+        "rua": "Rua Curitiba",
+        "bairro": "Centro",
+        "uf": "PR",
+        "numero": 300,
+        "cep": 80010040
+      }
+    },
+    "data_pedido": "2024-12-12",
+    "data_entrega": "2024-12-14"
+  },
+  {
+    "numero": 22,
+    "preco": 470.0,
+    "cliente": {
+      "nome": "Carlos Silva",
+      "telefone": "21987654321",
+      "endereco": {
+        "rua": "Av. Brasil",
+        "bairro": "Centro",
+        "uf": "RJ",
+        "numero": 123,
+        "cep": 20040002
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 23,
+    "preco": 890.0,
+    "cliente": {
+      "nome": "Juliana Mendes",
+      "telefone": "21999445566",
+      "endereco": {
+        "rua": "Rua do Sol",
+        "bairro": "Vila Nova",
+        "uf": "RJ",
+        "numero": 101,
+        "cep": 23010140
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 24,
+    "preco": 360.0,
+    "cliente": {
+      "nome": "Maria Souza",
+      "telefone": "11987653456",
+      "endereco": {
+        "rua": "Rua Verde",
+        "bairro": "Campo Belo",
+        "uf": "SP",
+        "numero": 90,
+        "cep": 4602001
+      }
+    },
+    "data_pedido": "2024-12-12"
+  },
+  {
+    "numero": 25,
+    "preco": 510.0,
+    "cliente": {
+      "nome": "Fernanda Lima",
+      "telefone": "21987655432",
+      "endereco": {
+        "rua": "Rua Amarela",
+        "bairro": "Leblon",
+        "uf": "RJ",
+        "numero": 88,
+        "cep": 22441030
+      }
+    },
+    "data_pedido": "2024-12-12",
+    "data_entrega": "2024-12-13"
   }
 ]

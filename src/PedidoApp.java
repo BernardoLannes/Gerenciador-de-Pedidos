@@ -371,13 +371,14 @@ public class PedidoApp {
             return;
         }
 
-        StringBuilder clientesInfo = new StringBuilder("Clientes Cadastrados:\n\n");
+        StringBuilder clientesInfo = new StringBuilder(
+                "<html><body style='width: 500px;'>Clientes Cadastrados:<br><br>");
         List<String> clientesUnicos = new ArrayList<>();
 
         for (Pedido pedido : pedidos) {
             Cliente cliente = pedido.getCliente();
             String clienteInfo = String.format(
-                    "Nome: %s\nTelefone: %s\nEndereço: Rua %s, Bairro %s, UF %s, Nº %d, CEP: %d\n\n",
+                    "Nome: %s<br>Telefone: %s<br>Endereço: Rua %s, Bairro %s, UF %s, Nº %d, CEP: %d<br><br>",
                     cliente.getNome(),
                     cliente.getTelefone(),
                     cliente.getEndereco().getRua(),
@@ -390,8 +391,16 @@ public class PedidoApp {
                 clientesInfo.append(clienteInfo);
             }
         }
+        clientesInfo.append("</body></html>");
 
-        JOptionPane.showMessageDialog(null, clientesInfo.toString(), "Clientes", JOptionPane.INFORMATION_MESSAGE);
+        JLabel label = new JLabel(clientesInfo.toString());
+        JScrollPane scrollPane = new JScrollPane(label);
+        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+        scrollPane.setPreferredSize(new Dimension(600, 400));
+        scrollPane.getVerticalScrollBar().setUnitIncrement(16);
+
+        JOptionPane.showMessageDialog(null, scrollPane, "Clientes", JOptionPane.INFORMATION_MESSAGE);
     }
 
     private static void mostrarPedidos() {
@@ -401,23 +410,30 @@ public class PedidoApp {
             return;
         }
 
-        StringBuilder pedidosInfo = new StringBuilder("Pedidos Realizados:\n\n");
+        StringBuilder pedidosInfo = new StringBuilder("<html><body style='width: 500px;'>Pedidos Realizados:<br><br>");
 
         for (Pedido pedido : pedidos) {
             pedidosInfo.append(String.format(
-                    "Número do Pedido: %d\n" +
-                            "Preço: R$ %.2f\n" +
-                            "Cliente: %s\n" +
-                            "Data do Pedido: %s\n" +
-                            "Data de Entrega: %s\n\n",
+                    "Número do Pedido: %d<br>" +
+                            "Preço: R$ %.2f<br>" +
+                            "Cliente: %s<br>" +
+                            "Data do Pedido: %s<br>" +
+                            "Data de Entrega: %s<br><br>",
                     pedido.getNumero(),
                     pedido.getPreco(),
                     pedido.getCliente().getNome(),
                     pedido.getDataPedido(),
                     pedido.getDataEntrega() != null ? pedido.getDataEntrega() : "Não definida"));
         }
+        pedidosInfo.append("</body></html>");
 
-        JOptionPane.showMessageDialog(null, pedidosInfo.toString(), "Pedidos", JOptionPane.INFORMATION_MESSAGE);
+        JLabel label = new JLabel(pedidosInfo.toString());
+        JScrollPane scrollPane = new JScrollPane(label);
+        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+        scrollPane.setPreferredSize(new Dimension(600, 400));
+        scrollPane.getVerticalScrollBar().setUnitIncrement(16);
+
+        JOptionPane.showMessageDialog(null, scrollPane, "Pedidos", JOptionPane.INFORMATION_MESSAGE);
     }
-
 }
