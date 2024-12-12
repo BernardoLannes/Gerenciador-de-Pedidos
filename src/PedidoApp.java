@@ -284,13 +284,12 @@ public class PedidoApp {
                 for (Pedido pedido : pedidos) {
                     if (pedido.getNumero() == numero) {
                         String detalhes = String.format(
-                                "Detalhes do Pedido\n" +
-                                        "------------------\n" +
+                                "Detalhes do Pedido:\n\n" +
                                         "Número do Pedido: %d\n" +
                                         "Preço: R$ %.2f\n" +
                                         "Cliente: %s\n" +
                                         "Telefone: %s\n" +
-                                        "Endereço: %s - %d\n",
+                                        "Endereço: %s - %d\n\n",
                                 pedido.getNumero(),
                                 pedido.getPreco(),
                                 pedido.getCliente().getNome(),
@@ -321,12 +320,11 @@ public class PedidoApp {
 
             if (!pedidosDoCliente.isEmpty()) {
                 StringBuilder detalhes = new StringBuilder();
-                detalhes.append("Pedidos do Cliente ").append(nome).append("\n");
-                detalhes.append("----------------------------\n");
+                detalhes.append("Pedidos do Cliente ").append(nome).append("\n\n");
                 for (Pedido pedido : pedidosDoCliente) {
                     detalhes.append(String.format(
-                            "Número: %d | Preço: R$ %.2f\n",
-                            pedido.getNumero(),
+                            "Número: %s | Preço: R$ %.2f\n",
+                            (pedido.getNumero() > 9 ? Integer.toString(pedido.getNumero()) : "0" + pedido.getNumero()),
                             pedido.getPreco()));
                 }
                 JOptionPane.showMessageDialog(null, detalhes.toString(), "Pedidos Encontrados",
