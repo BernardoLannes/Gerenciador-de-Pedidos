@@ -17,12 +17,7 @@ Este é um aplicativo Java para gerenciar pedidos de clientes, com funcionalidad
 - **Gson**: Manipulação do arquivo JSON para salvar e carregar pedidos.
 
 ## Como Usar
-
-1. Compile os arquivos
-    ```
-    javac -cp "lib/gson-2.11.0.jar" -d bin src/*.java
-    ```
-2. Execute o programa
+1. Execute o programa
    - Linux:
        ```
        java -cp "lib/gson-2.11.0.jar:bin" src.PedidoApp
@@ -32,8 +27,13 @@ Este é um aplicativo Java para gerenciar pedidos de clientes, com funcionalidad
        java -cp "lib/gson-2.11.0.jar;bin" src.PedidoApp
        ```
    
-5. Utilize os botões para adicionar, buscar ou editar pedidos.
-6. Ao finalizar, clique em "Salvar e Sair" para garantir que as alterações sejam salvas.
+2. Utilize os botões para adicionar, buscar ou editar pedidos.
+3. Ao finalizar, clique em "Salvar e Sair" para garantir que as alterações sejam salvas.
+
+Caso não seja possível executar o programa, tente recompilá-lo:
+    ```
+    javac -cp "lib/gson-2.11.0.jar" -d bin src/*.java
+    ```
 
 ## Dependências
 
